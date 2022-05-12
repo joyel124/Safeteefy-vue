@@ -1,0 +1,42 @@
+{
+  "guardians": [
+    {
+      "id": 1,
+      "username": "christian124",
+      "email": "christian124@example.com",
+      "firstName": "Christian" ,
+      "lastName": "Cutipa",
+      "gender": "male",
+      "address": "Lima"
+    },
+    {
+      "id": 2,
+      "username": "joyel124",
+      "email": "joyel124@example.com",
+      "firstName": "Joel" ,
+      "lastName": "C",
+      "gender": "male",
+      "address": "Lima"
+    }
+  ],
+  "urgencies": [
+    {
+      "id": 1,
+      "title": "Accidente Lima",
+      "summary": "accidente hoy",
+      "latitude": 0 ,
+      "longitude": 10,
+      "reportedAt": "11/05/2022",
+      "guardianId": 1
+    },
+    {
+      "id": 2,
+      "title": "Paro Lima",
+      "summary": "paro hoy",
+      "latitude": 20 ,
+      "longitude": 50,
+      "reportedAt": "08/05/2022",
+      "guardianId": 2
+    }
+  ]
+}

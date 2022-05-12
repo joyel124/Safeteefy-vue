@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    position: relative;
+    font-weight: normal;
+}
+
+body {
+    min-height: 100vh;
+    font-family: var(--font-family);
+    font-size: 16px;
+    margin: 0;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* PrimeVue overrides */
+.p-dialog-content {
+    /* stylelint-disable-next-line declaration-no-important */
+    overflow-y: visible !important;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.w-1\/2 {
+    width: 50%;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.underline-none {
+    text-decoration: none;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+
+.mr-1 {
+    margin-right: 1rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.bg-primary {
+    background-color: var(--primary-color);
+}
+
+.rounded-none {
+    border-radius: 0;
+}
+
+.space-x-1 > * + * {
+    margin-left: 1rem;
+}
+
+.space-y-1 > * + * {
+    margin-top: 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
